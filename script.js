@@ -81,6 +81,8 @@ function card(data) {
   para("UPI : ", data.UPI);
 }
 
+// creating the paragraph element for each values
+
 function para(title, text) {
   var p = createMyElement("p", "card-text");
   p.innerHTML = title;
@@ -116,6 +118,6 @@ function createMyElement(eleName, eleClass = "", eleId = "") {
   return ele;
 }
 
-// on button click calling the jokes function
+// on button click calling the acc details function
 
 btn.addEventListener("click", getAccDetails);
