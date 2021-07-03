@@ -4,7 +4,9 @@ body {
     background: linear-gradient(to right, rgba(235, 224, 232, 1) 52%, rgb(1, 94, 254) 53%, rgb(1, 115, 254) 100%);
     font-family: 'Roboto', sans-serif
 }
-
+.heading{
+    letter-spacing: 1.2px !important;
+}
 .card {
     border: none;
     border-radius: 24px;
